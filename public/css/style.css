@@ -1,0 +1,252 @@
+.tbl-img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.flfl {
+    display: flex;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.card-body {
+    background-color: #EBECEC;
+}
+
+.icon {
+    color: #727272;
+}
+
+.head-color {
+    background-color: #BBBBBB;
+}
+
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+
+    padding: 4px 4px 4px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar p {
+    margin-top: 5px;
+    color: red;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 3px 7.5px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#cont {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+td {
+    border-right: 1px solid #CECECE;
+}
+
+td a {
+    text-decoration: none;
+    color: #656565;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.round-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-body {
+    padding: 0 10px;
+}
+
+.text-info {
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+
+.admin-text {
+    font-size: 20px;
+    padding-left: 0;
+    margin-left: 15px;
+}
+
+.cat_info {
+    border: 1px solid #CECECE;
+}
+
+.edit-category {
+    height: 28px;
+}
+
+#comparing {
+    width: 440px;
+    position: absolute;
+    bottom: 30px;
+    min-height: 300px;
+    top: auto;
+    right: 25px;
+    border-radius: 35px;
+    border: 1px solid #585858;
+    padding-bottom: 5px;
+}
+
+#compare-items {
+    min-height: 230px;
+    position: relative;
+    padding: 0 20px;
+
+}
+
+.close-comp {
+    position: absolute;
+    top: 6px;
+    right: -10px;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#app {
+    position: relative;
+    min-height: 100vh;
+}
+
+.comp-img {
+    width: 180px;
+    height: 200px;
+    object-position: center;
+    object-fit: cover;
+}
+
+#comp-cont {
+    padding-left: 0;
+}
+
+.comp-item-img {
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.comp-img-title {
+    color: #575757;
+    font-weight: bold;
+}
+
+.phone-item {
+
+    width: 40%;
+}
+
+.small-td {
+    width: 20%;
+    color: red;
+    font-weight: bold;
+}
+
+.wdth-small {
+    width: 20%;
+}
+
+.img-title {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+td:not(.small-td) {
+    width: 40%;
+}
+
+#comparing {
+    display: none;
+}
+
+.comp-item-name {
+    background-color: #E36755;
+    color: #EEE2E0;
+}
+
+.open-comp-items {
+    display: none;
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+}
+
+.compare-button {
+    background-color: #00FF00;
+}
+
+.comp-reset {
+    background-color: #FF9900;
+}
+.tbl-big-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+.bt-name{
+    padding: 0;
+    font-weight: bold;
+}
